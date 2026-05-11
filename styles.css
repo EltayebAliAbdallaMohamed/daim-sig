@@ -1,0 +1,202 @@
+:root {
+  --blue: #0056b3;
+  --gray: #ccc;
+  --light-bg: #eef2f7;
+  --slide-bg: #fff;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: var(--light-bg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* PowerPoint-style slide container */
+#content {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  background: var(--slide-bg);
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 40px 30px;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 6px;
+}
+
+#slideNumber {
+  text-align: center;
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Search bar */
+#searchBar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+#searchInput {
+  flex: 1;
+  min-width: 200px;
+  padding: 8px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+#searchBtn {
+  background: var(--blue);
+  border: none;
+  color: #fff;
+  padding: 9px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+#searchBtn:hover {
+  background: #00469a;
+}
+
+/* Collapsible details area */
+details {
+  margin-top: 10px;
+  background: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 6px 10px;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.translation {
+  direction: rtl;
+  background: #f3f3f3;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 8px;
+  font-style: italic;
+}
+
+/* Media elements */
+img,
+video {
+  display: block;
+  margin: 15px auto;
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+audio {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.options {
+  margin-top: 20px;
+}
+
+/* Option labels */
+label {
+  display: block;
+  margin: 8px 0;
+  padding: 10px;
+  background: #f9f9f9;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+label:hover {
+  background: #e5f0ff;
+}
+
+/* Controls at bottom */
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+button {
+  flex: 1;
+  padding: 10px;
+  background: var(--blue);
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover:not(:disabled) {
+  background: #00469a;
+}
+
+button:disabled {
+  background: var(--gray);
+  cursor: default;
+}
+
+/* Feedback messages */
+.feedback {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: bold;
+  display: none;
+}
+
+.correct {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.incorrect {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  #content {
+    padding: 25px 15px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  button,
+  #searchBtn {
+    font-size: 14px;
+  }
+
+  #searchInput {
+    min-width: 150px;
+  }
+}

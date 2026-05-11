@@ -1,0 +1,122 @@
+[
+  {
+    "type": "mc2",
+    "audio": "audio/OK Yuna likes cooking.mp3",
+    "script_en": "OK Yuna likes cooking.",
+    "script_ar": "حسنًا، يونا تحب الطهي.",
+    "question": "What does Yuna like?",
+    "opts": ["sports", "cooking"],
+    "answer": "cooking"
+  },
+  {
+    "type": "mc3",
+    "audio": "audio/The Earth orbits the Sun once a year.mp3",
+    "script_en": "The Earth orbits the Sun once a year.",
+    "script_ar": "تدور الأرض حول الشمس مرة في السنة.",
+    "question": "What does the Earth orbit around?",
+    "opts": ["The Moon", "The Sun", "Mars"],
+    "answer": "The Sun"
+  },
+  {
+    "type": "mc4",
+    "audio": "audio/Water freezes at zero degrees Celsius.mp3",
+    "script_en": "Water freezes at zero degrees Celsius.",
+    "script_ar": "يتجمد الماء عند صفر درجة مئوية.",
+    "question": "At what temperature does water freeze?",
+    "opts": ["0°C", "50°C", "100°C", "25°C"],
+    "answer": "0°C"
+  },
+  {
+    "type": "tf2",
+    "audio": "audio/Dogs are reptiles.mp3",
+    "script_en": "Dogs are reptiles.",
+    "script_ar": "الكلاب من الزواحف.",
+    "question": "Are dogs reptiles?",
+    "opts": ["True", "False"],
+    "answer": "False"
+  },
+  {
+    "type": "tf3",
+    "audio": "audio/Some stars can live for millions of years, while others burn out quickly.mp3",
+    "script_en": "Some stars can live for millions of years, while others burn out quickly.",
+    "script_ar": "يمكن لبعض النجوم أن تعيش لملايين السنين بينما تنطفئ أخرى بسرعة.",
+    "question": "Do all stars have the same lifespan?",
+    "opts": ["True", "False", "Not enough information"],
+    "answer": "False"
+  },
+  {
+    "type": "info2",
+    "audio": "audio/Bananas are a good source of potassium.mp3",
+    "script_en": "Bananas are a good source of potassium.",
+    "script_ar": "يُعَد الموز مصدرًا جيدًا للبوتاسيوم.",
+    "question": "What nutrient are bananas rich in?",
+    "opts": ["Calcium", "Potassium"],
+    "answer": "Potassium"
+  },
+  {
+    "type": "info3",
+    "audio": "audio/Oceans cover more than 70 percent of the Earth's surface.mp3",
+    "script_en": "Oceans cover more than 70 percent of the Earth's surface.",
+    "script_ar": "تغطي المحيطات أكثر من 70٪ من سطح الأرض.",
+    "question": "What percentage of the Earth's surface is covered by oceans?",
+    "opts": ["50%", "70%", "90%"],
+    "answer": "70%"
+  },
+  {
+    "type": "info4",
+    "audio": "audio/The human body has 206 bones.mp3",
+    "script_en": "The human body has 206 bones.",
+    "script_ar": "يحتوي جسم الإنسان على 206 عظام.",
+    "question": "How many bones are in the human body?",
+    "opts": ["200", "206", "250", "180"],
+    "answer": "206"
+  },
+  {
+    "type": "yesno",
+    "audio": "audio/a9.mp3",
+    "script_en": "Elephants are the largest land animals on Earth.",
+    "script_ar": "تُعَد الفيلة أكبر الحيوانات البرية على وجه الأرض.",
+    "question": "Are elephants the largest land animals?",
+    "opts": ["Yes", "No"],
+    "answer": "Yes"
+  },
+  {
+    "type": "video_wh",
+    "video": "videos/your-video-file.mp4",
+    "audio": "audio/your-video-file.mp3",
+    "script_en": "This video shows how plants use sunlight to create food through photosynthesis.",
+    "script_ar": "يُظهر هذا الفيديو كيف تستخدم النباتات ضوء الشمس لإنتاج الغذاء من خلال عملية التمثيل الضوئي.",
+    "question": "What process allows plants to create food using sunlight?",
+    "opts": ["Respiration", "Photosynthesis", "Evaporation", "Transpiration"],
+    "answer": "Photosynthesis"
+  },
+  {
+    "type": "video_tf",
+    "video": "videos/v2.mp4",
+    "audio": "audio/v2.mp3",
+    "script_en": "This video explains that penguins can swim fast but cannot fly in the air.",
+    "script_ar": "يشرح هذا الفيديو أن طيور البطريق يمكنها السباحة بسرعة لكن لا يمكنها الطيران في الهواء.",
+    "question": "Can penguins fly in the air?",
+    "opts": ["True", "False"],
+    "answer": "False"
+  },
+  {
+    "type": "vocab_def",
+    "audio": "audio/The word 'generous' means willing to give or share freely.mp3",
+    "script_en": "The word 'generous' means willing to give or share freely.",
+    "script_ar": "كلمة 'كريم' تعني الرغبة في العطاء أو المشاركة بحرية.",
+    "question": "What does the word 'generous' mean?",
+    "opts": ["Unkind", "Willing to give freely"],
+    "answer": "Willing to give freely"
+  },
+  {
+    "type": "vocab_pic",
+    "audio": "audio/This is an apple, a round fruit with red or green skin.mp3",
+    "image": "images/apple.webp",
+    "script_en": "This is an apple, a round fruit with red or green skin.",
+    "script_ar": "هذه تفاحة، فاكهة مستديرة ذات قشرة حمراء أو خضراء.",
+    "question": "Which fruit is shown in the picture?",
+    "opts": ["Apple", "Orange", "Banana"],
+    "answer": "Apple"
+  }
+]
